@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+    <style>
+    body{
+      background-color:blue;
+    }
+    *{
+      box-sizing:border-box;
+    }
+    input[type = text],input[type = password],input[type = number]
+    {
+      width:30%;
+      padding:15px;
+      margin:5px 0px 22px 0;
+      border:none;
+      background-color:white;
+    }
+    button{
+      color:black;
+      opacity:0.9;
+      padding:14px 20px;
+      margin:8px 0;
+      border:none;
+      width:10%;
+      font-size:20px;
+      cursor:pointer;
+    }
+    label{
+      font-size:25px;
+    }
+    h1{
+      color:black;
+    }
+    </style>
+  </head>
+  <body>
+  <center>
+    <h1>Sign Up Login</h1>
+    <form action = "/action_page.php">
+    <label for = 'fname'><b>first name:</b></label><br>
+    <input type = 'text' id = 'fname' name = 'fname' placeholder = 'first name'><br><br>
+     <label for = 'lname'><b>last name:</b></label><br>
+    <input type = 'text' id = 'lname' name = 'lname' placeholder = 'last name'><br><br>
+    <label for = 'phone'><b>phone:</b></label><br>
+    <input type = 'number' id = 'phone' name = 'phone' placeholder = 'input your number'><br><br>
+    <label for = 'mail'><b>mail:</b></label><br>
+    <input type = 'text' id = 'mail' name = 'mail' placeholder = 'email'><br><br>
+    <label for = 'password'><b>password:</b></label><br>
+    <input type = 'password' id = 'password' name = 'password' placeholder = 'password'><br><br>
+    <label for = 'conform'><b>confrom password:</b></label><br>
+    <input type = 'password' id = 'password' name = 'password' placeholder = 'Repeat password'><br><br>
+    <input type = 'checkbox' id = 'term' name = 'condition'>
+    <label for = 'term'>I agree to Terms and Conditions</label></br></br>
+    <button type = 'submit' value = 'submit'><b>Submit</b></button>
+    </form>
+    </center>
+  </body>
+</html>
